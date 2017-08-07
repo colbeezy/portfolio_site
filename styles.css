@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 200px;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+img {
+  display: block;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+}
+
+.position {
+  padding: 0.5em;
+}
+
+.hero {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+}
+
+.featured {
+  background-color: green;
+  height: 300px;
+  width: 100%;
+}
