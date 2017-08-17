@@ -3,15 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+  color: #2d3c49;
 }
 
 .page {
   display: flex;
   flex-wrap: wrap;
-}
-
-.header {
-  height: 200px;
 }
 
 .logo {
@@ -23,6 +20,7 @@
 
 img {
   display: block;
+  height: auto;
 }
 
 .name {
@@ -32,16 +30,33 @@ img {
 
 .position {
   padding: 0.5em;
+  border-bottom: thick solid #7d97ad;
 }
 
 .hero {
-  background-color: blue;
-  height: 300px;
-  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.hero-image {
+  max-width: 100%;
 }
 
 .featured {
-  background-color: green;
-  height: 300px;
+  padding: 0.5em;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
   width: 100%;
+  font-size: 20px;
+}
+
+h6 {
+  padding-bottom: 1em;
 }
