@@ -1,3 +1,4 @@
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -12,22 +13,18 @@
   flex-wrap: wrap;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0.5em;
+/* Header */
+header {
+  text-align: center;
 }
 
-img {
-  display: block;
-  height: auto;
+.logo {
+  width: 15%;
+  padding-top: 0.5em;
 }
 
 .name {
-  padding-top: 0.25em;
-  width: 100%;
-  text-align: center;
+  padding-top: 0.5em;
 }
 
 .position {
@@ -35,38 +32,40 @@ img {
   /*border-bottom: solid #7d97ad; */
 }
 
-.hero {
+/* Hero */
+.hero-image {
+  max-width: 100%;
   padding-top: 0.5em;
   padding-bottom: 1em;
 }
 
-.hero-image {
-  max-width: 100%;
-}
-
+/* Featured Work */
 .featured {
-  padding: 0.5em;
+  padding: 2em;
 }
 
-.featured_title {
+.featured-title {
   color: #7d97ad;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
+.work-list {
+  padding-top: 0.75em;
+  padding-bottom: 0.25em;
+  width: 100%;
 }
 
-li {
+p {
+  text-align: center;
+}
+
+.project-name {
   width: 100%;
   font-size: 24px;
   text-align: center;
 }
 
-h6 {
-  padding-bottom: 1em;
-  text-align: center;
-  font-size: 12px;
+.project-url {
+  padding-bottom: 2em;
   color: #7d97ad;
+  font-size: 12px;
 }
