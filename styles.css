@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
   color: #2d3c49;
+  font-weight: 300;
 }
 
 .page {
@@ -13,12 +13,13 @@
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+
 }
 
 /* Header */
 header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -27,19 +28,20 @@ header {
 }
 
 .name {
-  font-size: 60px;
+  font-size: 70px;
+  font-weight: 100;
 }
 
 .position {
   padding-top: 0.5em;
   padding: 0.25em;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 hr {
   height: 3px;
   background-color: #BCBBBB;
-  margin-bottom: 10px;
+  margin: 20px;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -56,7 +58,9 @@ hr {
 }
 
 .featured-title {
-  color: #7d97ad;
+  color: #bcbbbb;
+  font-weight: 500;
+  font-size: 36px;
 }
 
 .work-list {
@@ -71,12 +75,17 @@ p {
 
 .project-name {
   width: 100%;
-  font-size: 24px;
+  font-size: 36px;
   text-align: center;
 }
 
 .project-url {
   padding-bottom: 2em;
   color: #7d97ad;
-  font-size: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
 }
