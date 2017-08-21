@@ -9,8 +9,6 @@
 }
 
 .page {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -22,7 +20,7 @@ header {
 }
 
 .logo {
-  width: 200px;
+  width: 175px;
   padding-top: 0.5em;
 }
 
@@ -101,31 +99,24 @@ a:link {
     display: flex;
   }
 
-  .logo {
-    padding: 0em;
-  }
-
   .logo-image {
-    order: 0;
-    width: 25%;
+    width: 20%;
     text-align: left;
     padding-left: 0em;
   }
 
   .identity {
-    width: 75%;
+    width: 80%;
     align-self: center;
+    text-align: right;
   }
 
   .name {
-    order: 1;
     font-size: 50px;
-    text-align: right;
     padding-right: 0em;
   }
 
   .position {
-    text-align: right;
     font-size: 20px;
     padding-bottom: 0px;
   }
@@ -134,9 +125,9 @@ a:link {
     height: 5px;
   }
 
-  .featured-title {
-    padding-top: 0.5em;
-  }
+.featured-title {
+  margin-top: 1em;
+}
 
   .featured {
     padding: 0.5em;
@@ -147,5 +138,4 @@ a:link {
     margin: 0em;
     padding: 0em;
   }
-
 }
