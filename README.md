@@ -13,4 +13,4 @@ Any modern browser should do.
 
 * To open the page from the terminal:
 
-  `open portfolio_site.html`
+  `open portfolio_site.html'
